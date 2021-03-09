@@ -1,3 +1,32 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
+    margin: 12px 12px 0;
+    background: rgb(224, 224, 224);
+}
+
 body {
-    
+    max-width: 42em;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+
+::-moz-selection {
+    background: #44C8F5;
+    color: white;
+
+}
+
+::selection {
+    background: #44C8F5;
+    color: white;
+
 }
